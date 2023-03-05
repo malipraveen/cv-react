@@ -4,9 +4,9 @@ This repository hosts source code for my resume, built with Vite, React and Tail
 
 ## Features
 
-- Using [Vite](https://vitejs.dev/). Vite is fast. When in development, any edit you make to the any file should be reflected in the browser instantly.
+- Using [Vite](https://vitejs.dev/). Vite is fast. When in development, edits you make to files should be instantly reflected on screen.
 
-- Separation of content with format. All the resume data is placed in [data.jsx](/setions/data.jsx). All logos are placed in the [`public`](/public/) folder.
+- Separation of content with format. All the resume data is placed in [data.jsx](/setions/data.jsx).
 
 - Dark theme.
 
@@ -32,6 +32,6 @@ This repository hosts source code for my resume, built with Vite, React and Tail
     npm run dev
     ```
 
-    to start developing. Replace the data in [data.jsx](/setions/data.jsx) with your own info.
+    to start developing. Replace the data in [data.jsx](/setions/data.jsx) with your own career info. Replace logos in the [`public`](/public/) folder with your own relevant ones.
 
 4. In the browser, right click the page and click "print" to save the page in PDF. Since we have dark background, be sure to remove any margin by setting the margin to "none" in the print dialog.
