@@ -10,7 +10,7 @@ This repository hosts source code for my resume, built with Vite, React and Tail
 
 - Dark theme.
 
-- Two column A4 layout.
+- Two-column A4 layout.
 
 ## How to build
 

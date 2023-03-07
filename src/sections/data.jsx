@@ -1,5 +1,5 @@
 export const headline =
-  "Frontend Development + Data Science. Eager to build visible products that can make real impacts on society.";
+  "Frontend Development + AI. Passionate about creating products that make impacts.";
 
 export const info = {
   contact: [
@@ -99,7 +99,7 @@ export const projects = [
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
     description: [
-      "Pixel Weather is a cross-platform mobile app built with React Native and Expo. It can ask the user's geographic location, fetch weather data from an API for that location, search and save for different cities, and display weather data with a clean UI.",
+      "Pixel Weather is a mobile app built with React Native and Expo. It can ask the user's geographic location, fetch weather data from an API for that location, and display weather data with a concise UI. Different cities and also the theme can be saved on local devices.",
     ],
   },
   {
@@ -120,7 +120,7 @@ export const experience = [
     loc: "Beijing, China",
     time: "2018, 6 mos",
     description: [
-      "Scraped data from the Internet, using Python Scrapy library. Developed an NLP program for extracting person names from scraped data.",
+      "Scraped officials, crimes and enterprises data from the Internet, using Python Scrapy library. Developed a named entity recognition (NER) program for extracting person names from scraped data.",
     ]
   }
 ]
