@@ -1,5 +1,5 @@
 export const headline =
-  "Frontend Development + AI. Passionate about creating products that make impacts.";
+  "Frontend development + AI. Passionate about building products and make positive impacts on society.";
 
 export const info = {
   contact: [
@@ -87,9 +87,9 @@ export const projects = [
     name: "BeeNote",
     link: "https://github.com/lifeitech/beenote",
     description: [
-      "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase. It utilizes Next.js 13's latest app directory feature for routing.",
+      "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase + AWS SES. It utilizes Next.js 13's latest app directory feature for routing.",
       
-      "It features user registration, audio recording, file uploading, rich text editor, dark theme support, and mobile friendliness.",
+      "It features user registration, email sending, audio recording, file uploading, rich text editor, dark theme support, and mobile friendliness.",
 
       <span>Try it now at <a className="underline" href="https://beenote.app" target="_blank">https://beenote.app</a>.</span>
     ],

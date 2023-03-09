@@ -36,7 +36,7 @@ function Experience() {
     <div class="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
       <h2 class="text-2xl mb-2">Relevant Experience</h2>
       {experience.map((item) => (
-        <div class="mb-3 flex flex-row gap-2 items-start">
+        <div class="flex flex-row gap-2 items-start">
           <img class="h-12 w-12 rounded-2xl" src={item.icon} />
           <div class="flex flex-col">
             <div class="flex flex-row justify-between items-center">
@@ -66,7 +66,7 @@ function Education() {
     <div class="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
       <h2 class="text-2xl mb-2">Education</h2>
       {education.map((item) => (
-        <div class="mb-3 flex flex-row gap-2 items-start">
+        <div class="mb-1 flex flex-row gap-2 items-start">
           <img class="h-12 w-12" src={item.icon} />
           <div class="flex flex-col">
             <div class="flex flex-row justify-between items-center">

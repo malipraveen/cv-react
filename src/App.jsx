@@ -12,7 +12,7 @@ function App() {
           <Left />
           <Right />
         </div>
-        <footer class="absolute left-2 bottom-1 text-sm text-gray-500 mt-2 text-center">This resume is built with Vite + React. Go to <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> for source code and latest info.</footer>
+        <footer class="absolute left-2 bottom-2 text-sm text-gray-500 mt-2 text-center">This resume is built with Vite + React. Go to <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> for source code and latest info.</footer>
       </body>
     </html>
   );
