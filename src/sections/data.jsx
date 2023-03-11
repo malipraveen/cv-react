@@ -1,5 +1,5 @@
 export const headline =
-  "Frontend development + AI. Passionate about building products and make positive impacts on society.";
+  "Frontend development + AI. Passionate about building products and making positive impacts on society.";
 
 export const info = {
   contact: [
