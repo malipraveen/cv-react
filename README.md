@@ -8,9 +8,11 @@ This repository hosts source code for my resume, built with Vite, React and Tail
 
 - Separation of content with format. All the resume data is placed in [data.jsx](/src/sections/data.jsx).
 
+- Two-column A4 layout.
+
 - Dark theme.
 
-- Two-column A4 layout.
+- Bilingual.
 
 ## How to build
 
