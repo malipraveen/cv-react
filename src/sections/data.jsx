@@ -17,6 +17,11 @@ const infoEN = {
       url: "mailto:fei.li.best@outlook.com",
     },
     {
+      icon: <i className="ri-phone-line"></i>,
+      name: "+86 18515453772",
+      url: "",
+    },
+    {
       icon: <i className="ri-linkedin-box-fill"></i>,
       name: "Fei Li",
       url: "https://www.linkedin.com/in/lifeipro",
@@ -65,10 +70,10 @@ const infoEN = {
       icon: "jekyll.png",
       name: "Jekyll",
     },
-    {
-      icon: "vite.png",
-      name: "Vite",
-    },
+    // {
+    //   icon: "vite.png",
+    //   name: "Vite",
+    // },
     {
       icon: "python.png",
       name: "Python",
@@ -99,6 +104,11 @@ const infoCN = {
       icon: <i className="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
       url: "mailto:fei.li.best@outlook.com",
+    },
+    {
+      icon: <i className="ri-phone-line"></i>,
+      name: "+86 18515453772",
+      url: "",
     },
     {
       icon: <i className="ri-linkedin-box-fill"></i>,
@@ -148,10 +158,6 @@ const infoCN = {
     {
       icon: "jekyll.png",
       name: "Jekyll",
-    },
-    {
-      icon: "vite.png",
-      name: "Vite",
     },
     {
       icon: "python.png",
