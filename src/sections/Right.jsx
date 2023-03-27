@@ -18,7 +18,6 @@ function Projects() {
             >
               {item.name}
             </a>
-            {/* {item.techstack.map(tech => <div class="badge badge-outline">{tech}</div>)} */}
           </div>
 
           <div class="ml-6">
@@ -33,8 +32,6 @@ function Projects() {
     </div>
   );
 }
-
-// text-orange-500
 
 function Experience() {
   return (
