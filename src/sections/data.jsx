@@ -183,6 +183,7 @@ const projectsEN = [
     icon: "beenote.png",
     name: "BeeNote",
     link: "https://beenote.app",
+    year: 2023,
     description: [
       "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase + AWS SES + ChatGPT. It utilizes Next.js 13's latest app directory feature for routing.",
       
@@ -194,6 +195,7 @@ const projectsEN = [
     icon: "pixel-weather.png",
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
+    year: 2022,
     description: [
       "Pixel Weather is a mobile app built with React Native and Expo. It can ask the user's geographic location, fetch weather data from an API for that location, and display weather data with a concise UI. Different cities and also the theme can be saved on local devices.",
     ],
@@ -202,6 +204,7 @@ const projectsEN = [
     icon: "github.svg",
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
+    year: 2020,
     description: [
     "NCE is a method for estimating energy models in deep learning, by training a model to distinguish between data and noise through logistic regression.", 
   ],
@@ -213,6 +216,7 @@ const projectsCN = [
     icon: "beenote.png",
     name: "BeeNote",
     link: "https://beenote.app",
+    year: 2023,
     description: [
       "BeeNote是一个用来记录外语学习笔记的web app。用户注册登录后，可以创建笔记本，录音并上传音频、上传图片，保存字母、单词、语法等笔记。另外，app使用stream的方式接入了OpenAI的API，用户在富文本编辑器当中按 “Ctrl + /” 即可流畅体验ChatGPT。",
       
@@ -223,6 +227,7 @@ const projectsCN = [
     icon: "pixel-weather.png",
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
+    year: 2022,
     description: [
       "Pixel Weather 是一个用 React Native 和 Expo 构建的跨平台手机应用。应用会在用户征得同意后获取用户的地理位置，从OpenWeather API获取该位置现在和未来的天气数据，并通过简洁明了的图表将数据展示给用户。用户亦可以将城市、dark theme 等设置保存在手机本地。",
     ],
@@ -231,6 +236,7 @@ const projectsCN = [
     icon: "github.svg",
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
+    year: 2020,
     description: [
     "NCE是深度学习领域用来估计 energy model 参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
   ],

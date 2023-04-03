@@ -8,7 +8,7 @@ function Projects() {
       <h2 class="text-2xl mb-5">{projectTitle}</h2>
       {projects.map((item) => (
         <div>
-          <div class="flex flex-row flex-wrap gap-2 items-center">
+          <div class="flex flex-row gap-2 items-center">
             <img class="w-6 h-6 rounded-lg" src={item.icon} />
             <a
               class="text-lg font-bold underline text-info-content"
@@ -18,6 +18,7 @@ function Projects() {
             >
               {item.name}
             </a>
+            <div class="text-sm ml-auto text-primary-content">{item.year}</div>
           </div>
 
           <div class="ml-6">
