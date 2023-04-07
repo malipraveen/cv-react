@@ -1,15 +1,25 @@
 const LANG = 'CN'  // or EN
 
-const headlineEN = "Frontend development + AI.";
+const headlineEN = "Passionate about AI applications.";
 
-const headlineCN = "前端开发 + 数据科学";
+const headlineCN = "数据科学硕士，动手能力强，拥有深度学习、前端开发等多个领域的知识。求职方向：AI落地应用。";
 
 const infoEN = {
   contact: [
     {
       icon: <i className="ri-global-line"></i>,
-      name: "lifei.tech",
+      name: "Blog - lifei.tech",
       url: "https://lifei.tech",
+    },
+    {
+      icon: <i className="ri-github-fill"></i>,
+      name: "GitHub - lifeitech",
+      url: "https://github.com/lifeitech",
+    },
+    {
+      icon: <i className="ri-linkedin-box-fill"></i>,
+      name: "LinkedIn - Fei Li",
+      url: "https://www.linkedin.com/in/lifeipro",
     },
     {
       icon: <i className="ri-mail-send-line"></i>,
@@ -21,19 +31,17 @@ const infoEN = {
       name: "+86 18515453772",
       url: "",
     },
-    {
-      icon: <i className="ri-linkedin-box-fill"></i>,
-      name: "Fei Li",
-      url: "https://www.linkedin.com/in/lifeipro",
-    },
-    {
-      icon: <i className="ri-github-fill"></i>,
-      name: "lifeitech",
-      url: "https://github.com/lifeitech",
-    },
   ],
   language: ["Chinese (native)", "English (fluent)", "Italian (beginner)"],
   techstack: [
+    {
+      icon: "python.png",
+      name: "Python",
+    },
+    {
+      icon: "pytorch.png",
+      name: "PyTorch",
+    },
     {
       icon: "ts.png",
       name: "TypeScript",
@@ -67,20 +75,16 @@ const infoEN = {
       name: "Tailwind",
     },
     {
+      icon: "hugo.png",
+      name: "Hugo",
+    },
+    {
       icon: "jekyll.png",
       name: "Jekyll",
     },
-    // {
-    //   icon: "vite.png",
-    //   name: "Vite",
-    // },
     {
-      icon: "python.png",
-      name: "Python",
-    },
-    {
-      icon: "pytorch.png",
-      name: "PyTorch",
+      icon: "vite.png",
+      name: "Vite",
     },
     {
       icon: "sql.png",
@@ -97,8 +101,18 @@ const infoCN = {
   contact: [
     {
       icon: <i className="ri-global-line"></i>,
-      name: "lifei.tech",
+      name: "个人主页：lifei.tech",
       url: "https://lifei.tech",
+    },
+    {
+      icon: <i className="ri-github-fill"></i>,
+      name: "GitHub：lifeitech",
+      url: "https://github.com/lifeitech",
+    },
+    {
+      icon: <i className="ri-linkedin-box-fill"></i>,
+      name: "领英：Fei Li",
+      url: "https://www.linkedin.com/in/lifeipro",
     },
     {
       icon: <i className="ri-mail-send-line"></i>,
@@ -110,19 +124,17 @@ const infoCN = {
       name: "+86 18515453772",
       url: "",
     },
-    {
-      icon: <i className="ri-linkedin-box-fill"></i>,
-      name: "Fei Li",
-      url: "https://www.linkedin.com/in/lifeipro",
-    },
-    {
-      icon: <i className="ri-github-fill"></i>,
-      name: "lifeitech",
-      url: "https://github.com/lifeitech",
-    },
   ],
   language: ["中文 (母语)", "英语 (流利)", "意大利语 (入门)"],
   techstack: [
+    {
+      icon: "python.png",
+      name: "Python",
+    },
+    {
+      icon: "pytorch.png",
+      name: "PyTorch",
+    },
     {
       icon: "ts.png",
       name: "TypeScript",
@@ -156,16 +168,16 @@ const infoCN = {
       name: "Tailwind",
     },
     {
+      icon: "hugo.png",
+      name: "Hugo",
+    },
+    {
       icon: "jekyll.png",
       name: "Jekyll",
     },
     {
-      icon: "python.png",
-      name: "Python",
-    },
-    {
-      icon: "pytorch.png",
-      name: "PyTorch",
+      icon: "vite.png",
+      name: "Vite",
     },
     {
       icon: "sql.png",
@@ -184,6 +196,7 @@ const projectsEN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
+    metric: {star:2, fork:1},
     description: [
       "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase + AWS SES + ChatGPT. It utilizes Next.js 13's latest app directory feature for routing.",
       
@@ -196,6 +209,7 @@ const projectsEN = [
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
     year: 2022,
+    metric: {star:1, fork:1},
     description: [
       "Pixel Weather is a mobile app built with React Native and Expo. It can ask the user's geographic location, fetch weather data from an API for that location, and display weather data with a concise UI. Different cities and also the theme can be saved on local devices.",
     ],
@@ -205,6 +219,7 @@ const projectsEN = [
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
+    metric: {star:18, fork:3},
     description: [
     "NCE is a method for estimating energy models in deep learning, by training a model to distinguish between data and noise through logistic regression.", 
   ],
@@ -217,10 +232,11 @@ const projectsCN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
+    metric: {star:2, fork:1},
     description: [
-      "BeeNote是一个用来记录外语学习笔记的web app。用户注册登录后，可以创建笔记本，录音并上传音频、上传图片，保存字母、单词、语法等笔记。另外，app使用stream的方式接入了OpenAI的API，用户在富文本编辑器当中按 “Ctrl + /” 即可流畅体验ChatGPT。",
-      
-      "这是一个全栈CRUD应用，主框架是Next.js 13 (app directory)，CSS使用Tailwind，编辑器基于Tiptap构建，后端 (数据库+auth) 采用PocketBase，邮件发送使用AWS SES。",
+      "BeeNote是一个用来记录外语学习笔记的web应用。用户注册登录后，可以创建笔记本，录音并上传音频、上传图片，保存字母、单词、语法等笔记。另外，app使用stream的方式接入了OpenAI的API，用户在富文本编辑器当中按 “Ctrl + /” 即可流畅体验ChatGPT。",
+      "这是一个全栈的 CRUD 应用，采用 Next.js 13 (app directory) 框架开发，CSS使用Tailwind，编辑器基于Tiptap构建，后端 (数据库+auth) 采用PocketBase，邮件发送使用AWS SES。",
+      "已获得来自30多个国家的访问，用户数量正不断增长。"
     ],
   },
   {
@@ -228,6 +244,7 @@ const projectsCN = [
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
     year: 2022,
+    metric: {star:1, fork:1},
     description: [
       "Pixel Weather 是一个用 React Native 和 Expo 构建的跨平台手机应用。应用会在用户征得同意后获取用户的地理位置，从OpenWeather API获取该位置现在和未来的天气数据，并通过简洁明了的图表将数据展示给用户。用户亦可以将城市、dark theme 等设置保存在手机本地。",
     ],
@@ -237,6 +254,7 @@ const projectsCN = [
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
+    metric: {star:18, fork:3},
     description: [
     "NCE是深度学习领域用来估计 energy model 参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
   ],
@@ -259,7 +277,7 @@ const experienceEN = [
 const experienceCN = [
   {
     icon: "transfereasy.png",
-    company: "transfereasy.com",
+    company: "TransferEasy",
     pos: "数据实习生",
     loc: "北京, 中国",
     time: "2018, 6 mos",
