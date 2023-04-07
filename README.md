@@ -2,6 +2,8 @@
 
 This repository hosts source code for my resume, built with Vite, React and Tailwind.
 
+[⚡Demo](https://cv-react-lifeitech.netlify.app/)
+
 [English](README.md) | [中文](README-CN.md)
 
 ## Features
