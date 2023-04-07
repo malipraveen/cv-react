@@ -2,7 +2,7 @@
 
 这个repo托管了我的简历源代码，技术栈为 Vite，React，Tailwind 和 DaisyUI。
 
-[⚡Demo](https://cv-react-lifeitech.netlify.app/)
+[⚡在线展示](https://cv-react-lifeitech.netlify.app/)
 
 [English](README.md) | [中文](README-CN.md)
 
