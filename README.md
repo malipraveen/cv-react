@@ -2,6 +2,8 @@
 
 This repository hosts source code for my resume, built with Vite, React and Tailwind.
 
+[English](README.md) | [中文](README-CN.md)
+
 ## Features
 
 - Using [Vite](https://vitejs.dev/). Vite is fast. When in development, edits you make to files should be instantly reflected on screen.
