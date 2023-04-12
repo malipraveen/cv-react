@@ -196,7 +196,7 @@ const projectsEN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:2, fork:1},
+    metric: {star:3, fork:1},
     description: [
       "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase + AWS SES + ChatGPT. It utilizes Next.js 13's latest app directory feature for routing.",
       
@@ -219,7 +219,7 @@ const projectsEN = [
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:18, fork:3},
+    metric: {star:17, fork:3},
     description: [
     "NCE is a method for estimating energy models in deep learning, by training a model to distinguish between data and noise through logistic regression.", 
   ],
@@ -232,7 +232,7 @@ const projectsCN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:2, fork:1},
+    metric: {star:3, fork:1},
     description: [
       "BeeNote是一个用来记录外语学习笔记的web应用。用户注册登录后，可以创建笔记本，录音并上传音频、上传图片，保存字母、单词、语法等笔记。另外，app使用stream的方式接入了OpenAI的API，用户在富文本编辑器当中按 “Ctrl + /” 即可流畅体验ChatGPT。",
       "这是一个全栈的 CRUD 应用，采用 Next.js 13 (app directory) 框架开发，CSS使用Tailwind，编辑器基于Tiptap构建，后端 (数据库+auth) 采用PocketBase，邮件发送使用AWS SES。",
@@ -254,7 +254,7 @@ const projectsCN = [
     name: "Noise Contrastive Estimation (NCE) in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:18, fork:3},
+    metric: {star:17, fork:3},
     description: [
     "NCE是深度学习领域用来估计 energy model 参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
   ],
