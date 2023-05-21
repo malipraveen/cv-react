@@ -17,6 +17,7 @@ function Projects() {
               target="_blank"
             >
               {item.name}
+              &nbsp;<i class="ri-external-link-line"></i>
             </a>
             <div class="flex flex-row gap-2 text-info-content">
               <span class="flex flex-row"><i class="ri-star-line"/>{item.metric.star}</span>
@@ -27,7 +28,7 @@ function Projects() {
 
           <div class="ml-6">
             {item.description.map((p) => (
-              <p class="">
+              <p class="text-sm">
               <i class="ri-flashlight-line text-[#171212] font-bold"></i> {p}
               </p>
             ))}
@@ -58,7 +59,7 @@ function Experience() {
 
             <div>
               {item.description.map((p) => (
-                <p class="">{p}</p>
+                <p class="text-sm">{p}</p>
               ))}
             </div>
           </div>

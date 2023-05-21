@@ -10,7 +10,7 @@ function App() {
           <Left />
           <Right />
         </div>
-        <footer class="text-left pl-2 pt-5 text-sm text-gray-500">{footer}</footer>
+        <footer class="text-left pl-2 pt-5 fixed bottom-2 text-sm text-gray-500">{footer}</footer>
       </body>
     </html>
   );

@@ -2,7 +2,7 @@ const LANG = 'CN'  // or EN
 
 const headlineEN = "Passionate about AI applications.";
 
-const headlineCN = "数据科学硕士，动手能力强，拥有深度学习、前端开发等多个领域的知识。求职方向：AI落地应用。";
+const headlineCN = "数据科学硕士，农行总行2年工作经验，拥有深度学习、前端开发、经济金融等多个领域的知识。求职方向：AI落地应用。";
 
 const infoEN = {
   contact: [
@@ -232,11 +232,10 @@ const projectsCN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:3, fork:1},
+    metric: {star:6, fork:1},
     description: [
-      "BeeNote是一个用来记录外语学习笔记的web应用。用户注册登录后，可以创建笔记本，录音并上传音频、上传图片，保存字母、单词、语法等笔记。另外，app使用stream的方式接入了OpenAI的API，用户在富文本编辑器当中按 “Ctrl + /” 即可流畅体验ChatGPT。",
-      "这是一个全栈的 CRUD 应用，采用 Next.js 13 (app directory) 框架开发，CSS使用Tailwind，编辑器基于Tiptap构建，后端 (数据库+auth) 采用PocketBase，邮件发送使用AWS SES。",
-      "已获得来自30多个国家的访问，用户数量正不断增长。"
+      "BeeNote 是一个用来记录外语学习笔记的全栈web应用。用户注册登录后，可以创建笔记本，保存字母、单词、语法等笔记。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。本应用使用stream的方式接入了OpenAI的API，用户可利用ChatGPT极大提升外语学习的效率。",
+      "已获得来自30多个国家用户的访问，用户数量正不断增长。"
     ],
   },
   {
@@ -246,17 +245,17 @@ const projectsCN = [
     year: 2022,
     metric: {star:1, fork:1},
     description: [
-      "Pixel Weather 是一个用 React Native 和 Expo 构建的跨平台手机应用。应用会在用户征得同意后获取用户的地理位置，从OpenWeather API获取该位置现在和未来的天气数据，并通过简洁明了的图表将数据展示给用户。用户亦可以将城市、dark theme 等设置保存在手机本地。",
+      "Pixel Weather 是一个用 React Native 和 Expo 构建的跨平台手机应用。应用会在用户征得同意后获取用户的地理位置，从OpenWeather API获取该位置现在和未来的天气数据，并通过简洁明了的图表将数据展示给用户。用户亦可以将城市、主题色等设置保存在手机本地。",
     ],
   },
   {
     icon: "github.svg",
-    name: "Noise Contrastive Estimation (NCE) in PyTorch",
+    name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:17, fork:3},
+    metric: {star:18, fork:3},
     description: [
-    "NCE是深度学习领域用来估计 energy model 参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
+    "Noise Contrastive Estimation (NCE) 是深度学习领域用来估计 energy model 参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
   ],
   },
 ];
@@ -276,13 +275,23 @@ const experienceEN = [
 
 const experienceCN = [
   {
+    icon: "pingan.jpeg",
+    company: "平安科技",
+    pos: "产品经理实习",
+    loc: "北京, 中国",
+    time: "2021, 2 mos",
+    description: [
+      "平安资管需要将国内上市公司财务报告等大量金融专业文档翻译成英文供国际投资者参考。我负责供数据标注人员使用的机器翻译校对平台产品，通过观察数据，成功发现了用户直接使用百度翻译等工具作弊的行为，并提出了解决方案。"
+    ]
+  },
+  {
     icon: "transfereasy.png",
     company: "TransferEasy",
     pos: "数据实习生",
     loc: "北京, 中国",
     time: "2018, 6 mos",
     description: [
-      "TransferEasy是一个专注于跨境汇款和跨境支付等业务的创业公司。在本岗位中，我使用Python的Scrapy框架，从互联网爬取了大量官员履历、犯罪、企业行政处罚等数据，用于构建反洗钱数据库。另外，我基于已获取的数据，训练了一个识别中文人名的模型，以替代公司之前使用的付费API。"
+      "TransferEasy是一个从事跨境汇款业务的互联网创业公司。我使用Scrapy框架，从互联网爬取了数万条官员履历、犯罪、企业行政处罚等数据，用于构建反洗钱数据库。另外，基于已获取的数据，训练了一个识别中文人名的模型，以替代公司之前使用的付费API。"
     ]
   }
 ]
@@ -317,6 +326,7 @@ const educationCN = [
     time: "2018 ~ 2020, 2 yrs",
     description: [
       "GPA: 110/110 cum laude",
+      "研究方向：生成学习"
     ],
   },
   {
@@ -331,7 +341,7 @@ const educationCN = [
 
 const footerEN = <div>This resume is built with Vite + React. Go to <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> for source code and latest updates.</div>
 
-const footerCN = <div>本简历基于 Vite 和 React 生成。 您可移步 <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> 查看源代码与简历更新。</div>
+const footerCN = <div>本简历基于 Vite 和 React 生成。 您可点击 <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> 查看源代码与简历更新。</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN
