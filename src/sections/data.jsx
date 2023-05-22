@@ -101,7 +101,7 @@ const infoCN = {
   contact: [
     {
       icon: <i className="ri-global-line"></i>,
-      name: "个人主页：lifei.tech",
+      name: "个人博客：lifei.tech",
       url: "https://lifei.tech",
     },
     {
