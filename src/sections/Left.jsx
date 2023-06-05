@@ -14,7 +14,7 @@ export default function Left() {
   return (
     <div class="">
     <h1 class="text-4xl font-bold mb-5">Fei Li <span class="text-3xl">李飞</span></h1>
-    <p className="mb-3 text-sm">{headline}</p>
+    <p className="mb-3 text-sm max-w-xl">{headline}</p>
       <Section title={contactTitle}>
         {info.contact.map((item) => (
           <a href={item.url} target="_blank">

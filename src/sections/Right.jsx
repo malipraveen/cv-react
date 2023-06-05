@@ -76,7 +76,7 @@ function Education() {
       {education.map((item) => (
         <div class="mb-1 flex flex-row gap-2 items-start">
           <img class="h-12 w-12" src={item.icon} />
-          <div class="flex flex-col">
+          <div class="flex flex-col w-[28rem]">
             <div class="flex flex-row justify-between items-center">
               <div class="text-lg font-bold">{item.school}</div>
               <div class="text-sm text-primary-content">{item.loc}</div>
@@ -89,7 +89,7 @@ function Education() {
 
             <div>
               {item.description.map((p) => (
-                <p class="w-[28rem]">{p}</p>
+                <p class="">{p}</p>
               ))}
             </div>
           </div>
