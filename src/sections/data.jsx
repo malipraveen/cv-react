@@ -196,7 +196,7 @@ const projectsEN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:7, fork:1},
+    metric: {star:10, fork:1},
     description: [
       "BeeNote is a full-stack CRUD application for taking language learning notes, built with Next.js 13 + Tailwind + DaisyUI + Tiptap + PocketBase + AWS SES + ChatGPT. It utilizes Next.js 13's latest app directory feature for routing.",
       
@@ -232,7 +232,7 @@ const projectsCN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:7, fork:1},
+    metric: {star:10, fork:1},
     description: [
       "BeeNote 是一个用来记录外语学习笔记的全栈web应用。用户注册登录后，可以创建笔记本，保存字母、单词、语法等笔记。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。本应用使用stream的方式接入了OpenAI的API，用户可利用ChatGPT极大提升外语学习的效率。",
       "已获得来自30多个国家用户的访问，用户数量正不断增长。"
