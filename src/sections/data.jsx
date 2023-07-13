@@ -1,4 +1,4 @@
-const LANG = 'CN'  // or EN
+const LANG = 'EN'  // or EN
 
 const headlineEN = "Msc in Data Science from Bocconi, former analyst at Agricultural Bank of China. Domain knowledge in deep learning, web development, finance and more. Eager to build AI applications.";
 
@@ -18,7 +18,7 @@ const infoEN = {
     },
     {
       icon: <i className="ri-linkedin-box-fill"></i>,
-      name: "LinkedIn - Fei Li",
+      name: "LinkedIn - lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
     {
@@ -111,7 +111,7 @@ const infoCN = {
     },
     {
       icon: <i className="ri-linkedin-box-fill"></i>,
-      name: "领英：Fei Li",
+      name: "领英：lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
     {
