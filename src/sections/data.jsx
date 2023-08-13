@@ -1,4 +1,4 @@
-const LANG = 'EN'  // or EN
+const LANG = 'CN'  // or EN
 
 const headlineEN = "Msc in Data Science from Bocconi, former analyst at Agricultural Bank of China. Domain knowledge in deep learning, web development, finance and more. Eager to build AI applications.";
 
@@ -196,7 +196,7 @@ const projectsEN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:10, fork:3},
+    metric: {star:15, fork:4},
     description: [
       "BeeNote is a full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server.",
       // <span>Try it now at <a className="underline" href="https://beenote.app" target="_blank">https://beenote.app</a>.</span>
@@ -230,7 +230,7 @@ const projectsCN = [
     name: "BeeNote",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:10, fork:3},
+    metric: {star:15, fork:4},
     description: [
       "BeeNote 是一个用来记录外语学习笔记的全栈web应用。用户注册登录后，可以创建笔记本，保存字母、单词、语法等笔记。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。本应用使用stream的方式接入了OpenAI的API，用户可利用ChatGPT极大提升外语学习的效率。",
       "已获得来自30多个国家用户的访问，用户数量正不断增长。"
