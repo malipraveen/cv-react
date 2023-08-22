@@ -217,7 +217,7 @@ const projectsEN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:18, fork:3},
+    metric: {star:19, fork:3},
     description: [
     "Noise Contrastive Estimation (NCE) is a method for estimating energy models in deep learning, by training a model to distinguish between data and noise through logistic regression.", 
   ],
@@ -251,7 +251,7 @@ const projectsCN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:18, fork:3},
+    metric: {star:19, fork:3},
     description: [
     "Noise Contrastive Estimation (NCE) 是深度学习领域用来估计energy model参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
   ],
