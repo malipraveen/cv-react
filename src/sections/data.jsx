@@ -1,33 +1,38 @@
-const LANG = 'CN'  // or EN
+const LANG = 'EN'  // or EN
 
-const headlineEN = "Msc in Data Science from Bocconi, former analyst at Agricultural Bank of China. Domain knowledge in deep learning, web development, finance and more. Eager to build AI applications.";
+const headlineEN = "Senior Data Scientist @ ElectrifAi, working on LLMs and AI applications. Obtained my Msc degree in Data Science from Università Bocconi in Italy."
 
-const headlineCN = "数据科学硕士，农行总行两年全职工作经验，拥有深度学习、前端开发、经济金融等多个领域的知识，善于从数据中发现问题。求职方向：数据科学、AI落地应用。";
+const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验。知识技能涵盖深度学习、前后端开发等众多领域，英语听说读写流利。数据科学与经济金融复合教育背景。求职方向：AI落地应用、数据科学。"
 
 const infoEN = {
   contact: [
     {
-      icon: <i className="ri-global-line"></i>,
-      name: "Blog - lifei.tech",
+      icon: <i class="ri-global-line"></i>,
+      name: "Website - lifei.tech",
       url: "https://lifei.tech",
     },
     {
-      icon: <i className="ri-github-fill"></i>,
+      icon: <i class="ri-github-fill"></i>,
       name: "GitHub - lifeitech",
       url: "https://github.com/lifeitech",
     },
     {
-      icon: <i className="ri-linkedin-box-fill"></i>,
+      icon: <i class="ri-linkedin-box-fill"></i>,
       name: "LinkedIn - lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
     {
-      icon: <i className="ri-mail-send-line"></i>,
+      icon: <i class="ri-twitter-x-line"></i>,
+      name: "X - lifeitech",
+      url: "https://twitter.com/lifeitech",
+    },
+    {
+      icon: <i class="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
       url: "mailto:fei.li.best@outlook.com",
     },
     {
-      icon: <i className="ri-phone-line"></i>,
+      icon: <i class="ri-phone-line"></i>,
       name: "+86 18515453772",
       url: "",
     },
@@ -100,27 +105,32 @@ const infoEN = {
 const infoCN = {
   contact: [
     {
-      icon: <i className="ri-global-line"></i>,
-      name: "个人博客：lifei.tech",
+      icon: <i class="ri-global-line"></i>,
+      name: "个人网站：lifei.tech",
       url: "https://lifei.tech",
     },
     {
-      icon: <i className="ri-github-fill"></i>,
+      icon: <i class="ri-github-fill"></i>,
       name: "GitHub：lifeitech",
       url: "https://github.com/lifeitech",
     },
     {
-      icon: <i className="ri-linkedin-box-fill"></i>,
+      icon: <i class="ri-linkedin-box-fill"></i>,
       name: "领英：lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
     {
-      icon: <i className="ri-mail-send-line"></i>,
+      icon: <i class="ri-twitter-x-line"></i>,
+      name: "推特：lifeitech",
+      url: "https://twitter.com/lifeitech",
+    },
+    {
+      icon: <i class="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
       url: "mailto:fei.li.best@outlook.com",
     },
     {
-      icon: <i className="ri-phone-line"></i>,
+      icon: <i class="ri-phone-line"></i>,
       name: "+86 18515453772",
       url: "",
     },
@@ -190,139 +200,141 @@ const infoCN = {
   ],
 };
 
-const projectsEN = [
-  {
-    icon: "beenote.png",
-    name: "BeeNote",
-    link: "https://beenote.app",
-    year: 2023,
-    metric: {star:15, fork:4},
-    description: [
-      "BeeNote is a full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server.",
-      // <span>Try it now at <a className="underline" href="https://beenote.app" target="_blank">https://beenote.app</a>.</span>
-    ],
-  },
-  // {
-  //   icon: "pixel-weather.png",
-  //   name: "Pixel Weather",
-  //   link: "https://github.com/lifeitech/pixel-weather",
-  //   year: 2022,
-  //   metric: {star:1, fork:1},
-  //   description: [
-  //     "Pixel Weather is a mobile app built with React Native and Expo. It can ask the user's geographic location, fetch weather data from an API for that location, and display weather data with a concise UI. Different cities and also the theme can be saved on local devices.",
-  //   ],
-  // },
-  {
-    icon: "github.svg",
-    name: "NCE in PyTorch",
-    link: "https://github.com/lifeitech/nce",
-    year: 2020,
-    metric: {star:19, fork:3},
-    description: [
-    "Noise Contrastive Estimation (NCE) is a method for estimating energy models in deep learning, by training a model to distinguish between data and noise through logistic regression.", 
-  ],
-  },
-];
-
-const projectsCN = [
-  {
-    icon: "beenote.png",
-    name: "BeeNote",
-    link: "https://beenote.app",
-    year: 2023,
-    metric: {star:15, fork:4},
-    description: [
-      "BeeNote 是一个用来记录外语学习笔记的全栈web应用。用户注册登录后，可以创建笔记本，保存字母、单词、语法等笔记。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。本应用使用stream的方式接入了OpenAI的API，用户可利用ChatGPT极大提升外语学习的效率。",
-      "已获得来自30多个国家用户的访问，用户数量正不断增长。"
-    ],
-  },
-  // {
-  //   icon: "pixel-weather.png",
-  //   name: "Pixel Weather",
-  //   link: "https://github.com/lifeitech/pixel-weather",
-  //   year: 2022,
-  //   metric: {star:1, fork:1},
-  //   description: [
-  //     "Pixel Weather 是一个用 React Native 和 Expo 构建的跨平台手机应用。应用会在用户征得同意后获取用户的地理位置，从OpenWeather API获取该位置现在和未来的天气数据，并通过简洁明了的图表将数据展示给用户。用户亦可以将城市、主题色等设置保存在手机本地。",
-  //   ],
-  // },
-  {
-    icon: "github.svg",
-    name: "NCE in PyTorch",
-    link: "https://github.com/lifeitech/nce",
-    year: 2020,
-    metric: {star:19, fork:3},
-    description: [
-    "Noise Contrastive Estimation (NCE) 是深度学习领域用来估计energy model参数的一个方法，其思想广泛用于word2vec、CLIP等众多模型。此方法将训练数据贴上正标签，将噪音贴上负标签，通过logistic regression进行数据和噪音的对比学习，从而将无监督学习问题转化为有监督学习问题。",
-  ],
-  },
-];
-
 const experienceEN = [
   {
-    icon: "pingan.jpeg",
-    company: "Ping An Technology",
-    pos: "Product Manager Intern",
-    loc: "Shenzhen, China",
-    time: "2021, 2 mos",
+    icon: "electrifai.png",
+    company: "ElectrifAi",
+    pos: "Senior Data Scientist",
+    loc: "Shanghai, China",
+    time: "2023.07 - now",
     description: [
-      "We offer our clients machine translation service for translating Chinese financial reports into English. We have a platform that lets outsourced workers manually verify and correct model outputs. By observing user data, I discovered that quite often workers resort to external services like Google Translate for their job. I proposed a way to detect such behavior."
+      "[AI Contract Review] A large bidding agency generates thousands of construction contracts each month that need to be reviewed. I lead a team to develope an end-to-end solution with open source LLMs to automate such task. Long context length (100K+ tokens), diverse formats and uncommon data distribution all post challenges. We designed engineering pipeline and novel fine-tuning methods to address such challenges and to address LLM hallucination and instability. I provide guidance and support for team members to ensure timely delivery.",
+
+      "[Alumni Engagement] An US school wants to boost alumni giving rate. I analyzed their alumni data, segmented the alumni into several groups and proposed campaign strategies for each group."
     ]
   },
   {
-    icon: "transfereasy.png",
-    company: "TransferEasy",
-    pos: "Data Intern",
-    loc: "Beijing, China",
-    time: "2018, 6 mos",
+    icon: "diamond.jpeg",
+    company: "Past experience",
+    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2022.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2027.08-2017.12)",
+    loc: "",
+    time: "",
     description: [
-      "Utilizing the Python Scrapy library, I scraped massive government officials, crimes and enterprises data from the Internet, for building an anti-money laundering database product. I also developed a named entity recognition (NER) program for extracting Chinese names from scraped data.",
-    ]
-  },
-  {
-    icon: "harvard.png",
-    company: "Harvard University",
-    pos: "Research Assistant",
-    loc: "Boston, USA",
-    time: "2017, 4 mos",
-    description: [
-      "Worked in a team to digitalize economic data from 2,000+ Chinese county gazetteers at Harvard Yenching Library. Used OCR software to convert tables on papers into spreadsheets, and performed data cleaning, merge, and analysis with Python."
+      ""
     ]
   },
 ]
 
 const experienceCN = [
   {
-    icon: "pingan.jpeg",
-    company: "平安科技 Ping An Technology",
-    pos: "产品经理实习",
-    loc: "深圳, 中国",
-    time: "2021, 2个月",
+    icon: "electrifai.png",
+    company: "奥浦诺 ElectrifAi",
+    pos: "高级数据科学家",
+    loc: "上海, 中国",
+    time: "2023.07至今",
     description: [
-      "平安资管需要将国内上市公司财务报告等大量金融专业文档翻译成英文供国际投资者参考。我负责供数据标注人员使用的机器翻译校对平台产品，通过观察数据，成功发现了用户直接使用百度翻译等工具作弊的行为，并提出了解决方案。"
+      "[某招标集团AI合同审核项目]",
+      "1. 隐私和可控性是许多企业客户应用LLM时考虑的首要因素。从选购GPU服务器、部署开源模型到上线端到端全栈应用，我给客户提供完整的本地化部署大语言模型应用服务，用于工程建设合同的审核。文本长（10+万字）、格式繁杂、专业性强，都对LLM提出了挑战。我通过大量的工程及微调训练，有效解决大语言模型逻辑推理能力差、生成结果不稳定等问题。",
+      "2. 给团队其他成员提供技术指导，带领团队按时完成交付。",
+      "[某美国大学校友捐赠项目]",
+      "某美国大学拟提升其校友捐赠率。我指导数据工程团队爬取领英、脸书等社交媒体数据，丰富数据维度。通过分析校友数据库当中的校友数据，识别出最有捐赠潜力和捐赠意愿的人群，按人群的segmentation提出校友捐赠活动策略建议，设计和开发校友分析和运营系统，最终提升校友捐赠率。"
     ]
   },
   {
-    icon: "transfereasy.png",
-    company: "银通易汇 TransferEasy",
-    pos: "数据实习生",
-    loc: "北京, 中国",
-    time: "2018, 6个月",
+    icon: "diamond.jpeg",
+    company: "其他经历",
+    pos: "分析师@农总行 (2021.05-2022.06) · 产品经理实习@平安科技 (2021.12-2022.01) · 数据开发实习@TransferEasy (2018.01-2018.06) · 研究助理@哈佛大学 (2027.08-2017.12)",
+    loc: "",
+    time: "",
     description: [
-      "TransferEasy是一个从事跨境汇款业务的互联网创业公司。我使用Scrapy框架，从互联网爬取了数万条官员履历、犯罪、企业行政处罚等数据，用于构建反洗钱数据库。另外，基于已获取的数据，训练了一个识别中文人名的模型，以替代公司之前使用的付费API。"
-    ]
-  },
-  {
-    icon: "harvard.png",
-    company: "哈佛大学 Harvard University",
-    pos: "研究助理",
-    loc: "波士顿，美国",
-    time: "2017, 4个月",
-    description: [
-      "将哈佛大学燕京图书馆馆藏两千多本中国县志中的经济数据电子化。使用OCR软件将纸张上的图表转换成电子表格，使用Python进行数据清洗、整合。"
+      ""
     ]
   },
 ]
+
+const projectsEN = [
+  {
+    icon: "global.svg",
+    name: "Blog: lifei.tech",
+    link: "https://lifei.tech",
+    year: 2023,
+    description: [
+      "Technical blog on AI & ML, data science, full stack development and other subjects. "
+    ],
+  },
+  {
+    icon: "beenote.png",
+    name: "beenote.app",
+    link: "https://beenote.app",
+    year: 2023,
+    metric: {star:18, fork:4},
+    description: [
+      "Full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server."
+    ],
+  },
+  {
+    icon: "pixel-weather.png",
+    name: "Pixel Weather",
+    link: "https://github.com/lifeitech/pixel-weather",
+    year: 2022,
+    metric: {star:2, fork:1},
+    description: [
+      "Mobile app for checking weathers developed with React Native.",
+    ],
+  },
+  {
+    icon: "github.svg",
+    name: "NCE in PyTorch",
+    link: "https://github.com/lifeitech/nce",
+    year: 2020,
+    metric: {star:20, fork:3},
+    description: [
+    "PyTorch implementation of Noise Contrastive Estimation (NCE).",
+  ],
+  },
+];
+
+const projectsCN = [
+  {
+    icon: "global.svg",
+    name: "个人博客 lifei.tech",
+    link: "https://lifei.tech",
+    year: 2023,
+    description: [
+      "专注深度学习、编程等领域的英文原创技术博客，如深入解读Llama源代码、详解GPT系列模型原理。"
+    ],
+  },
+  {
+    icon: "beenote.png",
+    name: "beenote.app",
+    link: "https://beenote.app",
+    year: 2023,
+    metric: {star:18, fork:4},
+    description: [
+      "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。"
+    ],
+  },
+  {
+    icon: "pixel-weather.png",
+    name: "Pixel Weather",
+    link: "https://github.com/lifeitech/pixel-weather",
+    year: 2022,
+    metric: {star:2, fork:1},
+    description: [
+      "用React Native开发的跨平台手机App，用于获知天气信息。",
+    ],
+  },
+  {
+    icon: "github.svg",
+    name: "NCE in PyTorch",
+    link: "https://github.com/lifeitech/nce",
+    year: 2020,
+    metric: {star:20, fork:3},
+    description: [
+    "噪音对比估计 (Noise Contrastive Estimation, NCE) 的PyTorch实现。",
+  ],
+  },
+];
 
 const educationEN = [
   {
@@ -333,7 +345,7 @@ const educationEN = [
     time: "2018 ~ 2020, 2 yrs",
     description: [
       "GPA: 110/110 cum laude",
-      "Research: Generative Learning"
+      "Research direction: Image generation"
     ],
   },
   {
@@ -354,14 +366,13 @@ const educationCN = [
     loc: "米兰，意大利",
     time: "2018 ~ 2020, 两年",
     description: [
-      "GPA: 110/110 cum laude",
-      "研究方向：生成学习"
+      "GPA: 110/110 cum laude. 研究方向：图像生成"
     ],
   },
   {
     icon: "sdu.png",
     school: "山东大学 Shandong University",
-    degree: "学士，经济与金融",
+    degree: "经济学学士，经济与金融国际化实验班",
     loc: "济南, 中国",
     time: "2013 ~ 2017, 四年",
     description: [" "],
@@ -378,8 +389,8 @@ export const projects = LANG == 'CN' ? projectsCN : projectsEN
 export const experience = LANG == 'CN' ? experienceCN : experienceEN
 export const education = LANG == 'CN' ? educationCN : educationEN
 
-export const projectTitle = LANG == 'CN' ? '相关项目' : 'Projects'
-export const experienceTitle = LANG == 'CN' ? '相关经历' : 'Relevant Experience'
+export const projectTitle = LANG == 'CN' ? '开源项目' : 'Open-source Projects'
+export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
 export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
 export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'
