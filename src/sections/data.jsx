@@ -1,4 +1,4 @@
-const LANG = 'EN'  // or EN
+const LANG = 'EN'  // EN, CN
 
 const headlineEN = "Senior Data Scientist @ ElectrifAi, working on LLMs and AI applications. Obtained my Msc degree in Data Science from Università Bocconi in Italy."
 
