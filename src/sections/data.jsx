@@ -267,7 +267,7 @@ const projectsEN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:19, fork:4},
+    metric: {star:20, fork:4},
     description: [
       "Full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server."
     ],
@@ -309,7 +309,7 @@ const projectsCN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:19, fork:4},
+    metric: {star:20, fork:4},
     description: [
       "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。"
     ],
