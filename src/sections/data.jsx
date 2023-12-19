@@ -21,11 +21,11 @@ const infoEN = {
       name: "LinkedIn - lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
-    {
-      icon: <i class="ri-twitter-x-line"></i>,
-      name: "X - lifeitech",
-      url: "https://twitter.com/lifeitech",
-    },
+    // {
+    //   icon: <i class="ri-twitter-x-line"></i>,
+    //   name: "X - lifeitech",
+    //   url: "https://twitter.com/lifeitech",
+    // },
     {
       icon: <i class="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
@@ -33,7 +33,7 @@ const infoEN = {
     },
     {
       icon: <i class="ri-phone-line"></i>,
-      name: "+86 18515453772",
+      name: "+86 19921834895",
       url: "",
     },
   ],
@@ -119,11 +119,11 @@ const infoCN = {
       name: "领英：lifeipro",
       url: "https://www.linkedin.com/in/lifeipro",
     },
-    {
-      icon: <i class="ri-twitter-x-line"></i>,
-      name: "推特：lifeitech",
-      url: "https://twitter.com/lifeitech",
-    },
+    // {
+    //   icon: <i class="ri-twitter-x-line"></i>,
+    //   name: "推特：lifeitech",
+    //   url: "https://twitter.com/lifeitech",
+    // },
     {
       icon: <i class="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
@@ -131,7 +131,7 @@ const infoCN = {
     },
     {
       icon: <i class="ri-phone-line"></i>,
-      name: "+86 18515453772",
+      name: "+86 19921834895",
       url: "",
     },
   ],
@@ -234,7 +234,7 @@ const experienceCN = [
     time: "2023.07至今",
     description: [
       "[某招标集团AI合同审核项目]",
-      "1. 隐私和可控性是许多企业客户应用LLM时考虑的首要因素。从选购GPU服务器、部署开源模型到上线端到端全栈应用，我给客户提供完整的本地化部署大语言模型应用服务，用于工程建设合同的审核。文本长（10+万字）、格式繁杂、专业性强，都对LLM提出了挑战。我通过大量的工程及微调训练，有效解决大语言模型逻辑推理能力差、生成结果不稳定等问题。",
+      "1. 隐私和可控性是许多企业客户应用LLM时考虑的首要因素。从选购GPU服务器、部署开源模型到上线端到端全栈应用，我为客户提供完整的本地化部署大语言模型应用服务，用于工程建设合同的审核。文本长（10+万字）、格式繁杂、专业性强，都对LLM提出了挑战。我通过大量的工程及微调训练，有效解决大语言模型逻辑推理能力差、生成结果不稳定等问题。",
       "2. 给团队其他成员提供技术指导，带领团队按时完成交付。",
       "[某美国大学校友捐赠项目]",
       "某美国大学拟提升其校友捐赠率。我指导数据工程团队爬取领英、脸书等社交媒体数据，丰富数据维度。通过分析校友数据库当中的校友数据，识别出最有捐赠潜力和捐赠意愿的人群，按人群的segmentation提出校友捐赠活动策略建议，设计和开发校友分析和运营系统，最终提升校友捐赠率。"
@@ -267,7 +267,7 @@ const projectsEN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:20, fork:4},
+    metric: {star:22, fork:4},
     description: [
       "Full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server."
     ],
@@ -287,7 +287,7 @@ const projectsEN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:20, fork:3},
+    metric: {star:21, fork:3},
     description: [
     "PyTorch implementation of Noise Contrastive Estimation (NCE).",
   ],
@@ -309,7 +309,7 @@ const projectsCN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:20, fork:4},
+    metric: {star:22, fork:4},
     description: [
       "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。"
     ],
@@ -329,7 +329,7 @@ const projectsCN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:20, fork:3},
+    metric: {star:21, fork:3},
     description: [
     "噪音对比估计 (Noise Contrastive Estimation, NCE) 的PyTorch实现。",
   ],
