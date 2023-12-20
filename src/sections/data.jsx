@@ -1,8 +1,8 @@
-const LANG = 'EN'  // EN, CN
+const LANG = 'CN'  // EN, CN
 
 const headlineEN = "Senior Data Scientist @ ElectrifAi, working on LLMs and AI applications. Obtained my Msc degree in Data Science from Università Bocconi in Italy."
 
-const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验。知识技能涵盖深度学习、前后端开发等众多领域，英语听说读写流利。数据科学与经济金融复合教育背景。求职方向：AI落地应用、数据科学。"
+const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验，兼具团队管理及研究经历，知识技能涵盖深度学习、前后端开发等众多领域。英语表达地道，听说读写流利。数据科学与经济金融复合教育背景。"
 
 const infoEN = {
   contact: [
@@ -216,7 +216,7 @@ const experienceEN = [
   {
     icon: "diamond.jpeg",
     company: "Past experience",
-    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2022.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2027.08-2017.12)",
+    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2022.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2017.08-2017.12)",
     loc: "",
     time: "",
     description: [
@@ -243,7 +243,7 @@ const experienceCN = [
   {
     icon: "diamond.jpeg",
     company: "其他经历",
-    pos: "分析师@农总行 (2021.05-2022.06) · 产品经理实习@平安科技 (2021.12-2022.01) · 数据开发实习@TransferEasy (2018.01-2018.06) · 研究助理@哈佛大学 (2027.08-2017.12)",
+    pos: "分析师@农总行 (2021.05-2022.06) · 产品经理实习@平安科技 (2021.12-2022.01) · 数据开发实习@TransferEasy (2018.01-2018.06) · 研究助理@哈佛大学 (2017.08-2017.12)",
     loc: "",
     time: "",
     description: [
