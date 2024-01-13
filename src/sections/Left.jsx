@@ -1,5 +1,6 @@
 import { headline, info } from "./data";
 import { contactTitle, languageTitle, techstackTitle } from "./data";
+import { footer } from "./data";
 
 function Section({ title, children }) {
   return (
@@ -43,6 +44,7 @@ export default function Left() {
         ))}
         </div>
       </Section>
+      <footer class="text-left pt-12 w-32 text-sm text-gray-500">{footer}</footer>
     </div>
   );
 }

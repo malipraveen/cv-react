@@ -22,7 +22,7 @@ function Experience() {
 
             <div>
               {item.description.map((p) => (
-                <p class='text-sm'>{p}</p>
+                <p class='text-sm text-justify'>{p}</p>
               ))}
             </div>
           </div>

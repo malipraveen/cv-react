@@ -2,14 +2,24 @@ const LANG = 'CN'  // EN, CN
 
 const headlineEN = "Senior Data Scientist @ ElectrifAi, working on LLMs and AI applications. Obtained my Msc degree in Data Science from Università Bocconi in Italy."
 
-const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验，兼具团队管理及研究经历，知识技能涵盖深度学习、前后端开发等众多领域。英语表达地道，听说读写流利。数据科学与经济金融复合教育背景。"
+const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验，兼具团队管理及研究经历，知识技能涵盖深度学习、前后端开发等众多领域。英语听说读写流利。数据科学与经济金融复合教育背景。"
 
 const infoEN = {
   contact: [
     {
+      icon: <i class="ri-mail-send-line"></i>,
+      name: "fei.li.best@outlook.com",
+      url: "mailto:fei.li.best@outlook.com",
+    },
+    {
+      icon: <i class="ri-phone-line"></i>,
+      name: "+86 19921834895",
+      url: "",
+    },
+    {
       icon: <i class="ri-global-line"></i>,
-      name: "Website - lifei.tech",
-      url: "https://lifei.tech",
+      name: "Website - lifei.ai",
+      url: "https://lifei.ai",
     },
     {
       icon: <i class="ri-github-fill"></i>,
@@ -26,16 +36,6 @@ const infoEN = {
     //   name: "X - lifeitech",
     //   url: "https://twitter.com/lifeitech",
     // },
-    {
-      icon: <i class="ri-mail-send-line"></i>,
-      name: "fei.li.best@outlook.com",
-      url: "mailto:fei.li.best@outlook.com",
-    },
-    {
-      icon: <i class="ri-phone-line"></i>,
-      name: "+86 19921834895",
-      url: "",
-    },
   ],
   language: ["Chinese (native)", "English (fluent)", "Italian (beginner)", "Japanese (beginner)"],
   techstack: [
@@ -105,26 +105,6 @@ const infoEN = {
 const infoCN = {
   contact: [
     {
-      icon: <i class="ri-global-line"></i>,
-      name: "个人网站：lifei.tech",
-      url: "https://lifei.tech",
-    },
-    {
-      icon: <i class="ri-github-fill"></i>,
-      name: "GitHub：lifeitech",
-      url: "https://github.com/lifeitech",
-    },
-    {
-      icon: <i class="ri-linkedin-box-fill"></i>,
-      name: "领英：lifeipro",
-      url: "https://www.linkedin.com/in/lifeipro",
-    },
-    // {
-    //   icon: <i class="ri-twitter-x-line"></i>,
-    //   name: "推特：lifeitech",
-    //   url: "https://twitter.com/lifeitech",
-    // },
-    {
       icon: <i class="ri-mail-send-line"></i>,
       name: "fei.li.best@outlook.com",
       url: "mailto:fei.li.best@outlook.com",
@@ -134,8 +114,28 @@ const infoCN = {
       name: "+86 19921834895",
       url: "",
     },
+    {
+      icon: <i class="ri-global-line"></i>,
+      name: "个人网站：lifei.ai",
+      url: "https://lifei.ai",
+    },
+    {
+      icon: <i class="ri-github-fill"></i>,
+      name: "GitHub：lifeitech",
+      url: "https://github.com/lifeitech",
+    },
+    // {
+    //   icon: <i class="ri-twitter-x-line"></i>,
+    //   name: "推特：lifeitech",
+    //   url: "https://twitter.com/lifeitech",
+    // },
+    {
+      icon: <i class="ri-linkedin-box-fill"></i>,
+      name: "领英：lifeipro",
+      url: "https://www.linkedin.com/in/lifeipro",
+    },
   ],
-  language: ["中文 (母语)", "英语 (流利)", "意大利语 (入门)", "日语（入门）"],
+  language: ["中文 (母语)", "英语 (流利沟通)", "意大利语 (入门)", "日语（入门）"],
   techstack: [
     {
       icon: "python.png",
@@ -216,7 +216,7 @@ const experienceEN = [
   {
     icon: "diamond.jpeg",
     company: "Past experience",
-    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2022.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2017.08-2017.12)",
+    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2023.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2017.08-2017.12)",
     loc: "",
     time: "",
     description: [
@@ -230,24 +230,25 @@ const experienceCN = [
     icon: "electrifai.png",
     company: "奥浦诺 ElectrifAi",
     pos: "高级数据科学家",
-    loc: "上海, 中国",
-    time: "2023.07至今",
+    loc: "上海",
+    time: "2023.07 至今",
     description: [
-      "[某招标集团AI合同审核项目]",
-      "1. 隐私和可控性是许多企业客户应用LLM时考虑的首要因素。从选购GPU服务器、部署开源模型到上线端到端全栈应用，我为客户提供完整的本地化部署大语言模型应用服务，用于工程建设合同的审核。文本长（10+万字）、格式繁杂、专业性强，都对LLM提出了挑战。我通过大量的工程及微调训练，有效解决大语言模型逻辑推理能力差、生成结果不稳定等问题。",
-      "2. 给团队其他成员提供技术指导，带领团队按时完成交付。",
-      "[某美国大学校友捐赠项目]",
-      "某美国大学拟提升其校友捐赠率。我指导数据工程团队爬取领英、脸书等社交媒体数据，丰富数据维度。通过分析校友数据库当中的校友数据，识别出最有捐赠潜力和捐赠意愿的人群，按人群的segmentation提出校友捐赠活动策略建议，设计和开发校友分析和运营系统，最终提升校友捐赠率。"
+      "1.【某招标集团AI合同审核项目】帮客户选购了8xA40 GPU服务器，2个月的时间内指导团队用LangChain, FastAPI等库为客户本地部署ChatGLM2-6B模型，用于生成和审核工程建设合同。为解决长文本（100+页 10+万字）、格式繁杂、专业性强、模型输出不稳定等困难，一开始尝试使用开源向量数据库及中文句嵌入模型，但检索效果并不理想。后采用正则表达式、提示词工程等大量工程化手段进行信息抽取与问答，保障输出结果的稳定性和准确性。",
+      "2.【某美国大学校友捐赠项目】指导印度工程团队爬取、清洗linkedin和facebook数据，更新校友信息。使用pandas和matplotlib分析捐赠数据，从分群、校友网络等维度给出提升捐赠率的策略报告。协调设计、前端、后端开发数据dashboard及校友活动管理系统，用评分模型根据活动推荐人群分组，用ChatGPT生成活动邮件。把关产品质量，精准指导团队修复bug，保障产品及时交付。",
+      "3. 【售前工程师】跟踪AI领域最新研究进展，根据客户需求，为汽车、电商、保险等不同行业的客户提供生成式AI解决方案。"
     ]
   },
   {
     icon: "diamond.jpeg",
     company: "其他经历",
-    pos: "分析师@农总行 (2021.05-2022.06) · 产品经理实习@平安科技 (2021.12-2022.01) · 数据开发实习@TransferEasy (2018.01-2018.06) · 研究助理@哈佛大学 (2017.08-2017.12)",
+    // pos: "分析师@农总行 (2021.05-2022.06) · 产品经理实习@平安科技 (2021.12-2022.01) · 数据开发实习@TransferEasy (2018.01-2018.06) · 研究助理@哈佛大学 (2017.08-2017.12)",
     loc: "",
     time: "",
     description: [
-      ""
+      "分析师 @ 中国农业银行总行战略规划部 (21/05 - 23/06)", 
+      "产品经理实习 @ 平安科技 (21/12 - 22/01)", 
+      "数据开发实习 @ TransferEasy (18/01 - 18/06)",
+      "研究助理 @ 哈佛大学 (17/08 - 17/12)",
     ]
   },
 ]
@@ -255,9 +256,9 @@ const experienceCN = [
 const projectsEN = [
   {
     icon: "global.svg",
-    name: "Blog: lifei.tech",
-    link: "https://lifei.tech",
-    year: 2023,
+    name: "Blog: lifei.ai",
+    link: "https://lifei.ai",
+    year: 2024,
     description: [
       "Technical blog on AI & ML, data science, full stack development and other subjects. "
     ],
@@ -267,7 +268,7 @@ const projectsEN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:22, fork:4},
+    metric: {star:24, fork:4},
     description: [
       "Full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server."
     ],
@@ -297,11 +298,19 @@ const projectsEN = [
 const projectsCN = [
   {
     icon: "global.svg",
-    name: "个人博客 lifei.tech",
-    link: "https://lifei.tech",
-    year: 2023,
+    name: "lifei.ai",
+    link: "https://lifei.ai",
+    year: 2024,
     description: [
-      "专注深度学习、编程等领域的英文原创技术博客，如深入解读Llama源代码、详解GPT系列模型原理。"
+    ],
+  },
+  {
+    icon: "global.svg",
+    name: "lifeitech.github.io",
+    link: "https://lifeitech.github.io",
+    year: 2024,
+    description: [
+      "专注人工智能领域的英文原创技术博客，如深入解读Llama源代码、详解GPT系列模型原理。"
     ],
   },
   {
@@ -309,7 +318,7 @@ const projectsCN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:22, fork:4},
+    metric: {star:24, fork:4},
     description: [
       "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。"
     ],
@@ -373,15 +382,13 @@ const educationCN = [
     icon: "sdu.png",
     school: "山东大学 Shandong University",
     degree: "经济学学士，经济与金融国际化实验班",
-    loc: "济南, 中国",
+    loc: "济南",
     time: "2013 ~ 2017, 四年",
     description: [" "],
   },
 ];
 
-const footerEN = <div>This resume is built with Vite + React. Go to <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> for source code and latest updates.</div>
-
-const footerCN = <div>本简历基于 Vite 和 React 生成。 您可点击 <a title="cv repository" class="underline" href="https://github.com/lifeitech/cv-react">lifeitech/cv-react</a> 查看源代码与简历更新。</div>
+export const footer = <div>Built with React Last Update 1/12/2024</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN
@@ -395,4 +402,4 @@ export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
 export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'
 export const techstackTitle = LANG == 'CN' ? '技术栈' : 'Tech Stack'
-export const footer = LANG == 'CN' ? footerCN : footerEN
+// export const footer = LANG == 'CN' ? footerCN : footerEN
