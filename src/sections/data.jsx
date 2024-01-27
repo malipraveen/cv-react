@@ -278,7 +278,7 @@ const projectsEN = [
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
     year: 2022,
-    metric: {star:2, fork:1},
+    metric: {star:1, fork:1},
     description: [
       "Mobile app for checking weathers developed with React Native.",
     ],
@@ -288,7 +288,7 @@ const projectsEN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:21, fork:3},
+    metric: {star:23, fork:3},
     description: [
     "PyTorch implementation of Noise Contrastive Estimation (NCE).",
   ],
@@ -328,7 +328,7 @@ const projectsCN = [
     name: "Pixel Weather",
     link: "https://github.com/lifeitech/pixel-weather",
     year: 2022,
-    metric: {star:2, fork:1},
+    metric: {star:1, fork:1},
     description: [
       "用React Native开发的跨平台手机App，用于获知天气信息。",
     ],
@@ -338,7 +338,7 @@ const projectsCN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:21, fork:3},
+    metric: {star:23, fork:3},
     description: [
     "噪音对比估计 (Noise Contrastive Estimation, NCE) 的PyTorch实现。",
   ],
