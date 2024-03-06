@@ -1,6 +1,6 @@
-const LANG = 'CN'  // EN, CN
+const LANG = 'EN'  // EN, CN
 
-const headlineEN = "Senior Data Scientist @ ElectrifAi, working on LLMs and AI applications. Obtained my Msc degree in Data Science from Università Bocconi in Italy."
+const headlineEN = "As a senior data scientist, I build AI applications for enterprises. I obtained my Msc degree in Data Science from Università Bocconi in Italy."
 
 const headlineCN = "AI从业人员，在企业级AI应用领域有丰富的实践经验，兼具团队管理及研究经历，知识技能涵盖深度学习、前后端开发等众多领域。英语听说读写流利。数据科学与经济金融复合教育背景。"
 
@@ -56,7 +56,7 @@ const infoEN = {
       name: "JavaScript",
     },
     {
-      icon: "next.png",
+      icon: "nextjs.svg",
       name: "Next.js",
     },
     {
@@ -208,19 +208,28 @@ const experienceEN = [
     loc: "Shanghai, China",
     time: "2023.07 - now",
     description: [
-      "[AI Contract Review] A large bidding agency generates thousands of construction contracts each month that need to be reviewed. I lead a team to develope an end-to-end solution with open source LLMs to automate such task. Long context length (100K+ tokens), diverse formats and uncommon data distribution all post challenges. We designed engineering pipeline and novel fine-tuning methods to address such challenges and to address LLM hallucination and instability. I provide guidance and support for team members to ensure timely delivery.",
+      <span><b>1.[AI contract review]</b> A bidding agency drafts 1K+ contracts per month. I led a team and developed an end-to-end AI solution for contract drafting and review, using open source LLMs and tools. Through engineering, we overcame challenges like long contexts and complex formats, reduced LLM hallucinations and increased output accuracy. We advised client on GPU server purchase and deployed our solution on the server.</span>,
 
-      "[Alumni Engagement] An US school wants to boost alumni giving rate. I analyzed their alumni data, segmented the alumni into several groups and proposed campaign strategies for each group."
+      <span><b>2.[e-commerce chatbot]</b> Home Depot is the largest home improvement retailer in the US. We built a virtual assistant for their website with RAG, using GPT-4 and vector databases.</span>,
+
+      <span><b>3.[Alumni engagement]</b> A renowned hospitality management school in the US wants to increase alumni givings. I analyzed alumni data, identified giving trends, and proposed several campaign strategies. I led a team and developed a full-stack application for data dashboard and campaign event management.</span>,
+
+      <span><b>4.[Payment transactions]</b> Snaplii is a payment processing company in Canada. We analyzed their transaction data, to understand their users' preferences and assess cashback performance.</span>
+
+
     ]
   },
   {
     icon: "diamond.jpeg",
-    company: "Past experience",
-    pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2023.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2017.08-2017.12)",
+    company: "Previous careers",
+    // pos: "Analyst @ Agricultural Bank of China HQ (2021.05-2023.06) · Product manager intern @ Ping An Technology (2021.12-2022.01) · Data dev. intern @ TransferEasy (2018.01-2018.06) · Research assistant @ Harvard (2017.08-2017.12)",
     loc: "",
     time: "",
     description: [
-      ""
+      "Analyst @ Agricultural Bank of China HQ (05/21 - 06/23)", 
+      "Product manager intern @ Ping An Technology (12/21 - 01/22)", 
+      "Data dev. intern @ TransferEasy (01/18 - 06/18)",
+      "Research assistant @ Harvard University (08/17 - 12/17)",
     ]
   },
 ]
@@ -256,21 +265,30 @@ const experienceCN = [
 const projectsEN = [
   {
     icon: "global.svg",
-    name: "Blog: lifei.ai",
+    name: "lifei.ai",
     link: "https://lifei.ai",
     year: 2024,
     description: [
-      "Technical blog on AI & ML, data science, full stack development and other subjects. "
+      "AI blogs, covering computer vision, language models, and web dev."
     ],
   },
+  // {
+  //   icon: "global.svg",
+  //   name: "lifeitech.github.io",
+  //   link: "https://lifeitech.github.io",
+  //   // year: 2024,
+  //   description: [
+  //     "AI blogs, covering computer vision, language models, and software dev."
+  //   ],
+  // },
   {
     icon: "beenote.png",
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:24, fork:4},
+    metric: {star:26, fork:4},
     description: [
-      "Full-stack CRUD AI application for taking language learning notes, built with Next.js 13 + Tailwind + PocketBase + AWS SES + ChatGPT, deployed on Vercel and fly.io. Users can ask AI for explaining words and grammars, edit notes and save their notes on the server."
+      "Full-stack CRUD AI application for taking language learning notes, built with Next.js + Tailwind + PocketBase + ChatGPT."
     ],
   },
   {
@@ -280,7 +298,7 @@ const projectsEN = [
     year: 2022,
     metric: {star:1, fork:1},
     description: [
-      "Mobile app for checking weathers developed with React Native.",
+      "Mobile app for checking weathers, developed with React Native.",
     ],
   },
   {
@@ -288,7 +306,7 @@ const projectsEN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:23, fork:3},
+    metric: {star:25, fork:3},
     description: [
     "PyTorch implementation of Noise Contrastive Estimation (NCE).",
   ],
@@ -318,9 +336,9 @@ const projectsCN = [
     name: "beenote.app",
     link: "https://beenote.app",
     year: 2023,
-    metric: {star:24, fork:4},
+    metric: {star:26, fork:4},
     description: [
-      "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js 13 + TailwindCSS + PocketBase + AWS。"
+      "记录外语学习笔记的全栈AI应用，采用tiptap开发文本编辑器，调用OpenAI的API提供听说读写AI助理。技术栈采用 Next.js + TailwindCSS + PocketBase + AWS。"
     ],
   },
   {
@@ -338,7 +356,7 @@ const projectsCN = [
     name: "NCE in PyTorch",
     link: "https://github.com/lifeitech/nce",
     year: 2020,
-    metric: {star:23, fork:3},
+    metric: {star:25, fork:3},
     description: [
     "噪音对比估计 (Noise Contrastive Estimation, NCE) 的PyTorch实现。",
   ],
@@ -354,7 +372,6 @@ const educationEN = [
     time: "2018 ~ 2020, 2 yrs",
     description: [
       "GPA: 110/110 cum laude",
-      "Research direction: Image generation"
     ],
   },
   {
@@ -388,7 +405,7 @@ const educationCN = [
   },
 ];
 
-export const footer = <div>Built with React Last Update 1/12/2024</div>
+export const footer = <div>Built with React Last Update 2/19/2024</div>
 
 export const headline = LANG == 'CN' ? headlineCN : headlineEN
 export const info = LANG == 'CN' ? infoCN : infoEN
@@ -396,8 +413,8 @@ export const projects = LANG == 'CN' ? projectsCN : projectsEN
 export const experience = LANG == 'CN' ? experienceCN : experienceEN
 export const education = LANG == 'CN' ? educationCN : educationEN
 
-export const projectTitle = LANG == 'CN' ? '开源项目' : 'Open-source Projects'
-export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Relevant Experience'
+export const projectTitle = LANG == 'CN' ? '开源项目' : 'Projects'
+export const experienceTitle = LANG == 'CN' ? '职业经历' : 'Careers'
 export const educationTitle = LANG == 'CN' ? '教育背景' : 'Education'
 export const contactTitle = LANG == 'CN' ? '联系方式' : 'Contacts'
 export const languageTitle = LANG == 'CN' ? '语言能力' : 'Languages'

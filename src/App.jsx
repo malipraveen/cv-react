@@ -4,7 +4,7 @@ import Right from "./sections/Right";
 
 function App() {
   return (
-    <html data-theme="forest">
+    <html data-theme="bumblebee">
       <body class="h-[297mm] w-[210mm] p-5 m-auto">
         <div div class="flex flex-row gap-3">
           <Left />

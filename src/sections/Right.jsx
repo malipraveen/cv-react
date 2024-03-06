@@ -4,7 +4,7 @@ import { projectTitle, experienceTitle, educationTitle } from "./data";
 
 function Experience() {
   return (
-    <div class="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
+    <div class="bg-primary text-primary-content rounded-box flex flex-col items-start py-3 px-5">
       <h2 class="font-bold text-xl mb-2">{experienceTitle}</h2>
       {experience.map((item) => (
         <div class="flex flex-row gap-2 items-start mb-2">
@@ -35,7 +35,7 @@ function Experience() {
 
 function Projects() {
   return (
-    <div class="bg-primary text-white text-justify rounded-box flex flex-col items-start py-3 px-4">
+    <div class="bg-primary text-primary-content text-justify rounded-box flex flex-col items-start py-3 px-4">
       <h2 class="font-bold text-xl mb-2">{projectTitle}</h2>
       {projects.map((item) => (
         <div class="flex flex-col w-[32rem]">
@@ -74,7 +74,7 @@ function Projects() {
 
 function Education() {
   return (
-    <div class="bg-primary text-white rounded-box flex flex-col items-start py-3 px-5">
+    <div class="bg-primary text-primary-content rounded-box flex flex-col items-start py-3 px-5">
       <h2 class="font-bold text-xl mb-2">{educationTitle}</h2>
       {education.map((item) => (
         <div class="mb-1 flex flex-row gap-2 items-start">
